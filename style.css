@@ -58,8 +58,6 @@ body{
     
 }
 
-
-
 main {
     background-color: var(--corbg);
     padding: 10px 0px 15px 0px;
@@ -90,11 +88,61 @@ button{
     padding: 2px 8px; /* espaçamento em cima e dos lados, entre a letra e o a borda */
     margin: 30px 0px 30px 0px;
     text-align: center;
+    
+
+}
+
+table{
+    background-color:rgba(124, 190, 168, 0.5) ;
+    width: 800px;
+    border-collapse: var(--cor1);
 }
 
 #bt{
     text-align: center;
 }
+
+#tbatalha{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#Ataque1{
+    color: white;
+}
+
+#Defesa1{
+    color: white;
+}
+
+
+/*section{
+    columns: 2;
+    width: 800px;
+    height: 350px;
+    padding-top: 50px;
+}
+
+article > h3{
+    color: white;
+}
+
+#cardA{
+    text-align: center;
+    background: var(--cor4);
+    width: 350px;
+    height: 300px;
+
+}
+
+#cardD{
+    text-align: center;
+    background: var(--cor4);
+    width: 350px;
+    height: 300px;
+}
+*/
+
 
 footer{
     background-color: var(--cor1);
