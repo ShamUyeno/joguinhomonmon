@@ -92,6 +92,10 @@ button{
     text-align: center;
 }
 
+#bt{
+    text-align: center;
+}
+
 footer{
     background-color: var(--cor1);
     color: var(--cor3);
