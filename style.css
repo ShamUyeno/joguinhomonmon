@@ -96,6 +96,7 @@ table{
     background-color:rgba(124, 190, 168, 0.5) ;
     width: 800px;
     border-collapse: var(--cor1);
+    margin-bottom: 10px;
 }
 
 #bt{
