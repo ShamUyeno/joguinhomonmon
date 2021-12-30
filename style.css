@@ -72,11 +72,14 @@ main > h2{
     text-align: center;
 }
 
-main > li {
-    text-indent: 50px;
-    padding-bottom: 2px;
-    columns: 2;
-    list-style-type: '\2714\00A0';
+#lista1 {
+    list-style-position: inside;
+    list-style-type: '\1F579\00A0';
+}
+
+#lista2{
+    list-style-position: inside;
+    list-style-type: '\1F47E\00A0';
 }
 
 h4 {
@@ -103,10 +106,21 @@ table{
     width: 800px;
     border-collapse: var(--cor1);
     margin-bottom: 10px;
+
 }
 
 td > h3{
     font-size: 25px;
+}
+
+#regras{
+    font-size: 21px;
+    color: var(--cor2);
+}
+
+th{
+    color: var(--cor1);
+    text-decoration: underline 2px;
 }
 
 #bt{
