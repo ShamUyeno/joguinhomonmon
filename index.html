@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="aleatorio.js"></script>
-    <title>Instruções</title>
+    <title>Regras e Instruções</title>
 </head>
 <body>
     <header>
@@ -14,15 +14,39 @@
       <p>Me mostre do que você é capaz. Batalhe e vença!</p>
     </header>  
     
-    <main>
-      <h2>Inserir caixa de regras e caixa de instruções</h2>
-      <li>Regra1</li>
-      <li>Regra2</li>
-      <li>Regra3</li>
-      <li>Regra4</li>
-      <li>Regra5</li>
-      <li>Regra6</li>
-    </main>
+    <table id="regras">
+      <tr >
+       <th colspan="2"><h2>Regras do Jogos</h2></th>
+      </tr>
+
+      <tr>
+          <td id="lista1">
+          <li>Os cards serão aleatórios;</li>
+          <li>Os pontos de Ataque e Defesa terão entre 200 a 2500 pontos;</li>
+          <li>O jogador só poderá escolher atacar no máximo 3 vezes e defender no máximo 2 vezes;</li>
+          <li>Se o jogador escolher atacar os pontos de ataque serão comparados com os pontos de defesa do seu oponente;</li>
+          <li>Se o jogador escolher defender os pontos de defesa do jogador será comparado com os pontos de ataque do oponente;</li>
+          <li>Vence quem tiver a pontuação maior;</li>
+          <li>As batalhas terão 5 turnos;</li>
+          <li>O jogador vencerá a batalha se conseguir vencer pelo menos 3 turnos.</li>
+          </td>
+      </tr>
+          
+      <tr>
+        <th colspan="2"><h2>Instruções do Jogos</h2></th>
+      </tr>
+      <tr>
+        <td id="lista2">
+          <li>jogador deverá clicar no Botão “Batalhar” para gerar um card aleatório com seus pontos de ataque e defesa;</li>
+          <li>Os pontos estão limitados entre 200 a 2500 pontos;</li>
+          <li>Ao clicar no botão “Batalhar” o sistema lhe fornecerá aleatoriamente um Card com os pontos de ataque e defesa;</li>
+          <li>O jogador deverá escolher entre “Atacar” ou “Defender” com o seu card;</li>
+          <li>Após o jogador escolher e clicar no botão será gerado um novo card (do seu oponente) e será realizado a comparação da pontuação escolhida;</li>
+          <li>Após a 5.ª rodada, será apresentado o resultado.</li>
+        </td>
+      </tr>
+    
+      </table>
 
     <div id="bt"><a href="batalha.html"><button id="button">BATALHAR</button></a></div>
 
