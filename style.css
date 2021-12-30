@@ -58,19 +58,6 @@ body{
     
 }
 
-main {
-    background-color: var(--corbg);
-    padding: 10px 0px 15px 0px;
-    border-radius: 8px;
-    margin: 5px 0px 5px 0px;
-    border: 5px solid var(--cor2);
-     
-    
-}
-
-main > h2{
-    text-align: center;
-}
 
 #lista1 {
     list-style-position: inside;
@@ -127,49 +114,16 @@ th{
     text-align: center;
 }
 
-#tbatalha{
+#tbatalha, #regrasinstruções, #tataque, #tdefesa{
     text-align: center;
     padding: 10px 0px;
 
 }
 
-#Ataque1{
+#Ataque1, #Defesa1{
     color: white;
     font-size: 22px;
 }
-
-#Defesa1{
-    color: white;
-    font-size: 22px;
-}
-
-
-/*section{
-    columns: 2;
-    width: 800px;
-    height: 350px;
-    padding-top: 50px;
-}
-
-article > h3{
-    color: white;
-}
-
-#cardA{
-    text-align: center;
-    background: var(--cor4);
-    width: 350px;
-    height: 300px;
-
-}
-
-#cardD{
-    text-align: center;
-    background: var(--cor4);
-    width: 350px;
-    height: 300px;
-}
-*/
 
 
 footer{
